@@ -1,5 +1,5 @@
 require 'rails_helper'
-
+# rails g resource Appointment appointment_datetime:datetime doctor:belongs_to patient:belongs_to --no-test-framework
 describe 'Doctor' do
 
   before do
