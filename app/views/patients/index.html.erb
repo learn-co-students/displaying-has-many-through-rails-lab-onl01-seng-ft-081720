@@ -1,0 +1,9 @@
+<ul>
+<% @patients.each do |p| %>
+<p><%= p.name, p.appointments.count %></p>
+<% end %>
+</ul>
+
+
+  <%# #index page
+    lists all of the patients and the number of appointments they have 
